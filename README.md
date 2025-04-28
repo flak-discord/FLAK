@@ -119,6 +119,15 @@
       cursor: pointer;
       border-radius: 8px;
     }
+
+    #admin-password {
+      width: 80%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+    }
+
   </style>
 </head>
 <body>
@@ -137,6 +146,47 @@
   <div id="about" class="hidden">
     <h2>Welcome to FLAK!</h2>
     <p>We’re thrilled to have you join us! FLAK is more than just a server – it’s a community built for everyone who loves gaming, connecting, and exploring new interests together. Here, we celebrate our members’ unique passions, whether it’s diving into an intense game, chilling with friends, or getting focused in a study session.</p>
+
+    <h3>💬 Chat Category</h3>
+    <ul>
+      <li>Hang out in General Chat for daily convos and random talks.</li>
+      <li>Dive into Gaming Chat to team up, share tips, or flex your wins.</li>
+      <li>Flex your gains or share fitness tips in Gym Chat.</li>
+      <li>Rev your engines in Car Chat — show off your rides, discuss mods, share car news, and everything automotive</li>
+      <li>Drop your best shots in Pics Chat — selfies, photography, artwork, anything visual.</li>
+      <li>Post the funniest content in our Memes Chat — because who doesn’t love a good meme?</li>
+      <li>Leveling system: the more you chat, the more perks you unlock!</li>
+    </ul>
+
+    <h3>🗣️ Talking Category</h3>
+    <ul>
+      <li>Create your own custom VC whenever you want.</li>
+      <li>Personalize your hangout, bring your friends, vibe your way.</li>
+    </ul>
+
+    <h3>🎬 Movies Category</h3>
+    <ul>
+      <li>Watching Together Stage for movie watch-alongs.</li>
+      <li>Two VC Channels for movie discussions.</li>
+      <li>Movie & Show Suggestions Forum.</li>
+    </ul>
+
+    <h3>📚 Studying Category</h3>
+    <ul>
+      <li>Two Classroom Stages for study sessions and workshops.</li>
+      <li>Two Students’ Lounges (VCs) for casual studying.</li>
+      <li>Study-Topics Forum for sharing tips and organizing group studies.</li>
+    </ul>
+
+    <h3>🎥 Streaming Category</h3>
+    <ul>
+      <li>Live Stage for recordings and streams.</li>
+      <li>Two VC Channels for gaming parties and live editing.</li>
+      <li>Stream & Content Suggestions Forum.</li>
+    </ul>
+
+    <p>At FLAK, we’re not just here to build a server — we’re building a place where friendships form, passions grow, and good memories are made.
+    We’re proud of the space we’ve created together, and we’re even more excited about where we’re headed next.</p>
   </div>
 
   <!-- Announcement Section -->
@@ -148,6 +198,8 @@
 
     <div id="announcement-form">
       <h4>Post a New Announcement</h4>
+      <!-- Admin Password Input -->
+      <input type="password" id="admin-password" placeholder="Enter Admin Password" />
       <input type="text" id="announcement-title" placeholder="Enter announcement title" />
       <textarea id="announcement-message" rows="4" placeholder="Enter announcement message"></textarea>
       <button onclick="postAnnouncement()">Post Announcement</button>
@@ -155,6 +207,9 @@
   </div>
 
   <script>
+    // Define the admin password
+    const adminPassword = 'maatoq1'; // Replace with your desired password
+
     function showAbout() {
       document.getElementById('about').classList.toggle('hidden');
     }
@@ -162,16 +217,25 @@
     function postAnnouncement() {
       var title = document.getElementById('announcement-title').value;
       var message = document.getElementById('announcement-message').value;
+      var password = document.getElementById('admin-password').value;
 
+      // Check if the entered password matches the admin password
+      if (password !== adminPassword) {
+        alert("Invalid password. Only the admin can post announcements.");
+        return;
+      }
+
+      // Check if both title and message are provided
       if (title && message) {
         var announcementList = document.getElementById('announcement-list');
         var newAnnouncement = document.createElement('li');
         newAnnouncement.innerHTML = `<strong>${title}</strong><p>${message}</p>`;
         announcementList.appendChild(newAnnouncement);
 
-        // Clear the input fields
+        // Clear the input fields after posting
         document.getElementById('announcement-title').value = '';
         document.getElementById('announcement-message').value = '';
+        document.getElementById('admin-password').value = ''; // Clear the password field
       } else {
         alert("Please fill in both fields.");
       }
