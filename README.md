@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -86,9 +87,11 @@
 
   <div class="home">
     <h1>WELCOME TO FLAK</h1>
+    <!-- Button for About Us -->
     <button onclick="showAbout()">About Us</button>
+    <!-- Button for Join the Server (Discord) -->
     <a href="https://discord.gg/rVU4H7mcwF" target="_blank">
-      <button class="discord-button">Join our Discord</button>
+      <button class="discord-button">Join the Server</button>
     </a>
   </div>
 
