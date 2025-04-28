@@ -96,10 +96,7 @@
 
   <div id="about" class="hidden">
     <h2>Welcome to FLAK!</h2>
-    <p>We’re thrilled to have you join us! FLAK is more than just a server – it’s a community built for everyone who loves gaming, connecting, and exploring new interests together. Here, we celebrate our members’ unique passions, whether it’s diving into an intense game, chilling with friends, or getting focused in a study session.
-
-At FLAK, we believe that gaming and community go hand in hand, and we’re dedicated to creating a space where everyone feels welcome. Our channels cover a wide variety of topics, so whether you’re here to find teammates, share your latest favorite song, or buckle down and study with others, you’ll find the right place to belong. With our supportive ticket system, fun server roles, and plenty of engaging activities, there’s always something new to discover.
-
+    <pWelcome to FLAK! We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!
 What You’ll Find at FLAK:</p>
 
     <h3>💬 Chat Category</h3>
@@ -141,17 +138,7 @@ What You’ll Find at FLAK:</p>
     </ul>
 
 
-    <p>At FLAK, we’re not just here to build a server — we’re building a place where friendships form, passions grow, and good memories are made.
-We’re proud of the space we’ve created together, and we’re even more excited about where we’re headed next.
-
-No matter why you joined — whether it’s to find a squad, vibe in VC, share your wins, study for exams, or just make a few new friends — know that you’re welcome here, just as you are.
-We’re a community that’s all about positivity, support, and good times.
-
-This server is shaped by everyone who’s a part of it — and now that you’re here, you’re part of the story too.
-So jump in, make yourself at home, and don’t be afraid to be yourself.
-
-We’re so glad you’re here.
-Welcome to FLAK — let’s make it unforgettable!</p>
+    <p>At FLAK, we’re more than just a server — we’re a community where friendships form, passions grow, and good memories are made. No matter why you joined, you’re welcome here just as you are. This space is built by all of us, and now you’re part of the story too. We’re so glad you’re here — welcome to FLAK!</p>
   </div>
 
   <script>
