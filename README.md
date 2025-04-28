@@ -107,6 +107,7 @@ What You’ll Find at FLAK:</p>
       <li>Hang out in General Chat for daily convos and random talks.</li>
       <li>Dive into Gaming Chat to team up, share tips, or flex your wins.</li>
       <li>Flex your gains or share fitness tips in Gym Chat.</li>
+      <li>Rev your engines in Car Chat — show off your rides, discuss mods, share car news, and everything automotive</li>
       <li>Drop your best shots in Pics Chat — selfies, photography, artwork, anything visual.</li>
       <li>Post the funniest content in our Memes Chat — because who doesn’t love a good meme?</li>
       <li>Leveling system: the more you chat, the more perks you unlock!</li>
