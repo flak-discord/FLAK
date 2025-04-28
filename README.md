@@ -31,11 +31,28 @@
       color: #0a0a0a;
       border-radius: 8px;
       transition: background-color 0.3s ease;
+      margin-top: 10px;
     }
 
     button:hover {
       background-color: #ff00ff;
       color: #fff;
+    }
+
+    .discord-button {
+      background-color: #7289DA; /* Discord blue */
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      color: white;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+
+    .discord-button:hover {
+      background-color: #5b6e96;
     }
 
     .hidden {
@@ -61,22 +78,6 @@
 
     li {
       margin-bottom: 10px;
-    }
-
-    .discord-button {
-      background-color: #7289DA; /* Discord blue */
-      border: none;
-      padding: 15px 30px;
-      font-size: 1.2em;
-      cursor: pointer;
-      color: white;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-      margin-top: 20px;
-    }
-
-    .discord-button:hover {
-      background-color: #5b6e96;
     }
   </style>
 </head>
