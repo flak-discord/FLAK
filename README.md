@@ -62,6 +62,22 @@
     li {
       margin-bottom: 10px;
     }
+
+    .discord-button {
+      background-color: #7289DA; /* Discord blue */
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      color: white;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+    }
+
+    .discord-button:hover {
+      background-color: #5b6e96;
+    }
   </style>
 </head>
 <body>
@@ -70,6 +86,9 @@
   <div class="home">
     <h1>WELCOME TO FLAK</h1>
     <button onclick="showAbout()">About Us</button>
+    <a href="https://discord.gg/rVU4H7mcwF" target="_blank">
+      <button class="discord-button">Join our Discord</button>
+    </a>
   </div>
 
   <div id="about" class="hidden">
