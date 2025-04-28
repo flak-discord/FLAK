@@ -135,6 +135,7 @@
       <li>Stream & Content Suggestions Forum.</li>
     </ul>
 
+
     <p>At FLAK, we’re not just here to build a server — we’re building a place where friendships form, passions grow, and good memories are made.
 We’re proud of the space we’ve created together, and we’re even more excited about where we’re headed next.
 
@@ -145,7 +146,7 @@ This server is shaped by everyone who’s a part of it — and now that you’re
 So jump in, make yourself at home, and don’t be afraid to be yourself.
 
 We’re so glad you’re here.
-Welcome to FLAK — let’s make it unforgettable.!</p>
+Welcome to FLAK — let’s make it unforgettable!</p>
   </div>
 
   <script>
