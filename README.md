@@ -98,7 +98,7 @@
     <h2>Welcome to FLAK!</h2>
     <p>We’re thrilled to have you join us! FLAK is more than just a server – it’s a community built for everyone who loves gaming, connecting, and exploring new interests together...</p>
 
-    <h3>Chat Category</h3>
+    <h3>💬 Chat Category</h3>
     <ul>
       <li>Hang out in General Chat for daily convos and random talks.</li>
       <li>Dive into Gaming Chat to team up, share tips, or flex your wins.</li>
@@ -108,27 +108,27 @@
       <li>Leveling system: the more you chat, the more perks you unlock!</li>
     </ul>
 
-    <h3>✨ Talking Category</h3>
+    <h3>🗣️ Talking Category</h3>
     <ul>
       <li>Create your own custom VC whenever you want.</li>
       <li>Personalize your hangout, bring your friends, vibe your way.</li>
     </ul>
 
-    <h3>✨ Movies Category</h3>
+    <h3>🎬 Movies Category</h3>
     <ul>
       <li>Watching Together Stage for movie watch-alongs.</li>
       <li>Two VC Channels for movie discussions.</li>
       <li>Movie & Show Suggestions Forum.</li>
     </ul>
 
-    <h3>✨ Studying Category</h3>
+    <h3>📚 Studying Category</h3>
     <ul>
       <li>Two Classroom Stages for study sessions and workshops.</li>
       <li>Two Students’ Lounges (VCs) for casual studying.</li>
       <li>Study-Topics Forum for sharing tips and organizing group studies.</li>
     </ul>
 
-    <h3>✨ Streaming Category</h3>
+    <h3>🎥 Streaming Category</h3>
     <ul>
       <li>Live Stage for recordings and streams.</li>
       <li>Two VC Channels for gaming parties and live editing.</li>
