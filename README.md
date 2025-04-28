@@ -96,7 +96,7 @@
 
   <div id="about" class="hidden">
     <h2>Welcome to FLAK!</h2>
-    <pWelcome to FLAK! We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!
+    <p></p>Welcome to FLAK! We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!
 What You’ll Find at FLAK:</p>
 
     <h3>💬 Chat Category</h3>
