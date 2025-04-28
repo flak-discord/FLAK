@@ -135,7 +135,17 @@
       <li>Stream & Content Suggestions Forum.</li>
     </ul>
 
-    <p>At FLAK, we believe that gaming and community go hand in hand. With supportive ticket systems, fun roles, and engaging activities, there’s always something new to discover. Welcome home!</p>
+    <p>At FLAK, we’re not just here to build a server — we’re building a place where friendships form, passions grow, and good memories are made.
+We’re proud of the space we’ve created together, and we’re even more excited about where we’re headed next.
+
+No matter why you joined — whether it’s to find a squad, vibe in VC, share your wins, study for exams, or just make a few new friends — know that you’re welcome here, just as you are.
+We’re a community that’s all about positivity, support, and good times.
+
+This server is shaped by everyone who’s a part of it — and now that you’re here, you’re part of the story too.
+So jump in, make yourself at home, and don’t be afraid to be yourself.
+
+We’re so glad you’re here.
+Welcome to FLAK — let’s make it unforgettable.!</p>
   </div>
 
   <script>
