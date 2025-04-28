@@ -97,7 +97,7 @@
   <div id="about" class="hidden">
     <h2>Welcome to FLAK!</h2>
     <p></p>Welcome to FLAK! We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!
-What You’ll Find at FLAK: </p>
+What You’ll Find at FLAK:
 
     <h3>💬 Chat Category</h3>
     <ul>
