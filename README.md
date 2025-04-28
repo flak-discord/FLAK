@@ -205,7 +205,7 @@
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
     // Initialize EmailJS with your user ID
-    emailjs.init("Elia"); // Replace with your EmailJS user ID
+    emailjs.init("alimaatoq2005"); // Replace with your EmailJS user ID
 
     function sendFeedback() {
       var feedbackMessage = document.getElementById('feedback-message').value;
