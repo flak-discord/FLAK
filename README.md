@@ -96,7 +96,11 @@
 
   <div id="about" class="hidden">
     <h2>Welcome to FLAK!</h2>
-    <p>We’re thrilled to have you join us! FLAK is more than just a server – it’s a community built for everyone who loves gaming, connecting, and exploring new interests together...</p>
+    <p>We’re thrilled to have you join us! FLAK is more than just a server – it’s a community built for everyone who loves gaming, connecting, and exploring new interests together. Here, we celebrate our members’ unique passions, whether it’s diving into an intense game, chilling with friends, or getting focused in a study session.
+
+At FLAK, we believe that gaming and community go hand in hand, and we’re dedicated to creating a space where everyone feels welcome. Our channels cover a wide variety of topics, so whether you’re here to find teammates, share your latest favorite song, or buckle down and study with others, you’ll find the right place to belong. With our supportive ticket system, fun server roles, and plenty of engaging activities, there’s always something new to discover.
+
+What You’ll Find at FLAK:</p>
 
     <h3>💬 Chat Category</h3>
     <ul>
