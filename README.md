@@ -125,7 +125,73 @@
 
   <div id="about" class="hidden">
     <h2>Welcome to FLAK!</h2>
-    <p>We’re thrilled to have you join us! FLAK is more than just a server – it’s a community built for everyone who loves gaming, connecting, and exploring new interests together.</p>
+    <p>We’re thrilled to have you join us! FLAK is more than just a server – it’s a community built for everyone who loves gaming, connecting, and exploring new interests together. Here, we celebrate our members’ unique passions, whether it’s diving into an intense game, chilling with friends, or getting focused in a study session.</p>
+
+    <p>At FLAK, we believe that gaming and community go hand in hand, and we’re dedicated to creating a space where everyone feels welcome. Our channels cover a wide variety of topics, so whether you’re here to find teammates, share your latest favorite song, or buckle down and study with others, you’ll find the right place to belong. With our supportive ticket system, fun server roles, and plenty of engaging activities, there’s always something new to discover.</p>
+
+    <h3>What You’ll Find at FLAK:</h3>
+
+    <h3>💬 Chat Category</h3>
+    <ul>
+      <li>Hang out in General Chat for daily convos and random talks.</li>
+      <li>Dive into Gaming Chat to team up, share tips, or flex your wins.</li>
+      <li>Flex your gains or share fitness tips in Gym Chat.</li>
+      <li>Drop your best shots in Pics Chat — selfies, photography, artwork, anything visual.</li>
+      <li>Post the funniest content in our Memes Chat — because who doesn’t love a good meme?</li>
+      <li>Plus, a full Levelling System — the more you chat, the higher you climb, unlocking roles and perks!</li>
+    </ul>
+
+    <h3>🗣️ Talking Category</h3>
+    <ul>
+      <li>Create your own custom VC (voice channel) whenever you want.</li>
+      <li>Personalize your hangout, bring your friends, vibe your way.</li>
+    </ul>
+
+    <h3>🎬 Movies Category</h3>
+    <ul>
+      <li>Watching Together Stage — a dedicated spot for hosting movie watch-alongs.</li>
+      <li>Two VC Channels — perfect for casual movie discussions or syncing up while watching.</li>
+      <li>Movie & Show Suggestions Forum — recommend your favorite films, TV shows, anime, or series, and discover what others love!</li>
+    </ul>
+
+    <h3>📚 Studying Category</h3>
+    <ul>
+      <li>Two Classroom Stages — structured spaces for hosting study sessions, workshops, or lectures.</li>
+      <li>Two Students’ Lounges (VCs) — relaxed voice channels for casual studying, group projects, or chill work sessions.</li>
+      <li>Study-Topics Forum — a place to share study tips, ask questions, organize group studies, and post resources.</li>
+    </ul>
+
+    <h3>🎥 Streaming Category</h3>
+    <ul>
+      <li>Live Stage — host live recordings, streams, or major announcements.</li>
+      <li>Two VC Channels — for gaming parties, stream setups, or live editing hangouts.</li>
+      <li>Stream & Content Suggestions Forum — drop ideas on what we should record, stream, or create together!</li>
+    </ul>
+
+    <h3>Diverse Channels for Every Interest</h3>
+    <p>Beyond gaming and media, explore channels dedicated to music, art, and general discussions. Whether you’re sharing content or just chatting, there’s always a conversation waiting for you.</p>
+
+    <h3>Interactive Events and Competitions</h3>
+    <p>FLAK hosts regular events like tournaments, trivia nights, movie marathons, and themed events. Our competitions and activities make it easy to engage and have fun with other members.</p>
+
+    <h3>Support and Feedback</h3>
+    <p>Use our ticket system for any support you need, from navigating the server to sharing ideas for improvement. We value member input and aim to keep Game Sphere a positive, welcoming place for all.</p>
+
+    <h3>Achievements and Ranks</h3>
+    <p>As you engage and contribute, you can earn ranks and special roles. It’s our way of recognizing and celebrating the unique energy each member brings to the community.</p>
+
+    <p>At FLAK, we’re not just here to build a server — we’re building a place where friendships form, passions grow, and good memories are made.</p>
+    <p>We’re proud of the space we’ve created together, and we’re even more excited about where we’re headed next.</p>
+
+    <p>No matter why you joined — whether it’s to find a squad, vibe in VC, share your wins, study for exams, or just make a few new friends — know that you’re welcome here, just as you are.</p>
+
+    <p>We’re a community that’s all about positivity, support, and good times.</p>
+
+    <p>This server is shaped by everyone who’s a part of it — and now that you’re here, you’re part of the story too.</p>
+
+    <p>So jump in, make yourself at home, and don’t be afraid to be yourself.</p>
+
+    <p>We’re so glad you’re here. Welcome to FLAK — let’s make it unforgettable.</p>
   </div>
 
   <!-- Feedback Section -->
@@ -139,7 +205,7 @@
   <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
   <script>
     // Initialize EmailJS with your user ID
-    emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+    emailjs.init("Elia"); // Replace with your EmailJS user ID
 
     function sendFeedback() {
       var feedbackMessage = document.getElementById('feedback-message').value;
@@ -151,7 +217,7 @@
         };
 
         // Sending feedback using EmailJS
-        emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", feedbackData)
+        emailjs.send("service_mw8uqcj", "template_v4t9z7e", feedbackData)
           .then(function(response) {
             alert('Feedback sent successfully!');
             document.getElementById('feedback-message').value = ''; // Clear the textarea after submission
