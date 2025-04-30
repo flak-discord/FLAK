@@ -84,7 +84,7 @@
 <body>
   <img src="https://media.discordapp.net/attachments/1365681695218466889/1365977300469944360/rumFZRb.png?ex=681290bf&is=68113f3f&hm=3b90470f5be9459b30d10a05e3a847782d567cf2dcb4592a107fd2c97c317ab0&=&width=405&height=405" alt="FLAK Logo" id="flak-logo">
 
-  <div class="home">
+
     <h1>WELCOME TO FLAK</h1>
     <!-- Button for About Us -->
     <button onclick="showAbout()">About Us</button>
