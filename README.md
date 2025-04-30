@@ -80,7 +80,7 @@
   </style>
 </head>
 <body>
-  <img src="https://media.discordapp.net/attachments/1365681695218466889/1365977300469944360/rumFZRb.png?ex=681290bf&is=68113f3f&hm=3b90470f5be9459b30d10a05e3a847782d567cf2dcb4592a107fd2c97c317ab0&=&width=405&height=405" alt="FLAK Logo" id="flak-logo">
+  <img src="https://media.discordapp.net/attachments/1365681695218466889/1365977300469944360/rumFZRb.png?ex=681290bf&is=68113f3f&hm=3b90470f5be9459b30d10a05e3a847782d567cf2dcb4592a107fd2c97c317ab0&=&width=405&height=405">
 
 <div>
 
@@ -99,7 +99,7 @@
   </a>
   </div>
 
-  
+  <div id="about" class="hidden">
     <h2>Welcome to FLAK!</h2>
     <p></p>Welcome to FLAK! We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!
 What You’ll Find at FLAK:
