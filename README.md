@@ -139,7 +139,13 @@ What You’ll Find at FLAK:
 
 
     <p>At FLAK, we’re more than just a server — we’re a community where friendships form, passions grow, and good memories are made. No matter why you joined, you’re welcome here just as you are. This space is built by all of us, and now you’re part of the story too. We’re so glad you’re here — welcome to FLAK!</p>
-  </div>
+   <!-- Button for Instagram -->
+  <a href="https://instagram.com/flak.discord" target="_blank">
+    <button style="background-color: #E1306C; color: white; border: none; padding: 15px 30px; font-size: 1.2em; cursor: pointer; border-radius: 8px; margin-top: 10px; transition: background-color 0.3s ease;">
+      Follow us on Instagram
+    </button>
+  </a>
+</div>
 
   <script>
     function showAbout() {
