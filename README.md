@@ -33,6 +33,11 @@
       transition: background-color 0.3s ease;
       margin-top: 10px;
     }
+<a href="https://instagram.com/flak.discord" target="_blank">
+  <button style="padding: 10px 20px; background-color: #E1306C; color: white; border: none; border-radius: 5px; cursor: pointer;">
+    Follow us on Instagram
+  </button>
+</a>
 
     button:hover {
       background-color: #ff00ff;
