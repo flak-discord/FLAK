@@ -23,7 +23,7 @@
     }
 
     button {
-      background-color: #00ffff;
+      background-color: #81a5ca;
       border: none;
       padding: 15px 30px;
       font-size: 1.2em;
@@ -35,12 +35,12 @@
     }
 
     button:hover {
-      background-color: #ff00ff;
+      background-color: #81a5ca;
       color: #fff;
     }
 
     .discord-button {
-      background-color: #7289DA; /* Discord blue */
+      background-color: #81a5ca; /* Discord blue */
       border: none;
       padding: 15px 30px;
       font-size: 1.2em;
@@ -52,7 +52,7 @@
     }
 
     .discord-button:hover {
-      background-color: #5b6e96;
+      background-color: #81a5ca;
     }
 
     .hidden {
@@ -94,7 +94,7 @@
     </a>
     
     <a href="https://instagram.com/flak.discord" target="_blank">
-    <button style="background-color: #E1306C; color: white; border: none; padding: 15px 30px; font-size: 1.2em; cursor: pointer; border-radius: 8px; margin-top: 10px; transition: background-color 0.3s ease;">
+    <button style="background-color: #81a5ca; color: white; border: none; padding: 15px 30px; font-size: 1.2em; cursor: pointer; border-radius: 8px; margin-top: 10px; transition: background-color 0.3s ease;">
       Follow us on Instagram
     </button>
   </a>
