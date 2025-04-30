@@ -12,9 +12,7 @@
       padding: 50px;
     }
 
-    #flak-logo {
-      width: 150px; /* Adjust size */
-      margin-bottom: 30px;
+   
     }
 
     h1 {
