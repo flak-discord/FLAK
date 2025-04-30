@@ -28,7 +28,7 @@
       padding: 15px 30px;
       font-size: 1.2em;
       cursor: pointer;
-      color: #0a0a0a;
+      color: #fff;
       border-radius: 8px;
       transition: background-color 0.3s ease;
       margin-top: 10px;
