@@ -97,6 +97,8 @@
       Follow us on Instagram
     </button>
   </a>
+  <button onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E', '_blank')">Join Our Server in Guilded</button> 
+  </a>
   </div>
 
   <div id="about" class="hidden">
