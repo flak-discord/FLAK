@@ -5,47 +5,67 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>FLAK</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body, html {
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
+      background-color: black;
+      color: white;
+      height: 100vh;
+      width: 100vw;
     }
 
     .container {
       display: flex;
-      height: 100vh;
+      height: 100%;
+      width: 100%;
     }
 
     .left-panel {
       width: 30%;
-      background-color: white;
+      background-color: #111;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
-      padding: 40px;
-      gap: 20px;
+      align-items: center;
+      padding: 40px 20px;
+      gap: 30px;
     }
 
     .link-button {
-      background: none;
-      border: none;
+      background-color: white;
       color: black;
-      font-size: 18px;
+      border: none;
+      font-size: 22px;
+      font-weight: bold;
+      padding: 20px 30px;
+      width: 100%;
+      max-width: 300px;
       display: flex;
       align-items: center;
-      gap: 10px;
+      justify-content: center;
+      gap: 15px;
+      border-radius: 12px;
       cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .link-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
     }
 
     .link-button img {
-      height: 24px;
+      height: 30px;
     }
 
     .right-panel {
       width: 70%;
       background-color: black;
-      color: white;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -55,24 +75,34 @@
     }
 
     .flak-logo {
-      width: 150px;
-      margin-bottom: 20px;
+      width: 180px;
+      margin-bottom: 30px;
     }
 
     #aboutButton {
       background-color: white;
       color: black;
       border: none;
-      padding: 10px 20px;
-      font-size: 18px;
+      padding: 15px 25px;
+      font-size: 20px;
+      font-weight: bold;
       cursor: pointer;
+      border-radius: 10px;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    #aboutButton:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
     }
 
     #aboutText {
       margin-top: 30px;
-      max-width: 700px;
+      max-width: 750px;
       text-align: left;
       white-space: pre-wrap;
+      font-size: 16px;
+      line-height: 1.6;
     }
 
     .hidden {
@@ -84,13 +114,18 @@
   <div class="container">
     <div class="left-panel">
       <button class="link-button" onclick="window.open('https://www.instagram.com/flak_COMMUNITY/', '_blank')">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> Follow us on Instagram
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> 
+        Follow us on Instagram
       </button>
-      <button class="link-button" onclick="window.open('https://discord.com/invite/rVU4H7mcwF', '_blank')">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" alt="Discord"> Join our Discord Server
+      <button class="link-button" onclick="window.open('https://discord.com/invite/rVU4H7mcwF
+', '_blank')">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" alt="Discord"> 
+        Join our Discord Server
       </button>
-      <button class="link-button" onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E', '_blank')">
-        <img src="https://cdn.gilded.gg/icons/guilded-icon.svg" alt="Guilded"> Join our Guilded Server
+      <button class="link-button" onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E
+', '_blank')">
+        <img src="https://cdn.gilded.gg/icons/guilded-icon.svg" alt="Guilded"> 
+        Join our Guilded Server
       </button>
     </div>
     <div class="right-panel">
