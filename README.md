@@ -5,7 +5,7 @@
  
   <style>
     body {
-      background-color: #cdd5d5;
+      background-color: #0000;
       color: #ffffff;
       font-family: 'Arial', sans-serif;
       text-align: center;
