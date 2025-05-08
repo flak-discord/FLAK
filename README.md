@@ -1,8 +1,8 @@
 
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FLAK</title>
   <style>
     * {
@@ -40,9 +40,9 @@
       background-color: white;
       color: black;
       border: none;
-      font-size: 22px;
+      font-size: 20px;
       font-weight: bold;
-      padding: 20px 30px;
+      padding: 18px 25px;
       width: 100%;
       max-width: 300px;
       display: flex;
@@ -60,7 +60,7 @@
     }
 
     .link-button img {
-      height: 30px;
+      height: 26px;
     }
 
     .right-panel {
@@ -74,12 +74,13 @@
       text-align: center;
     }
 
+
     #aboutButton {
       background-color: white;
       color: black;
       border: none;
-      padding: 15px 25px;
-      font-size: 20px;
+      padding: 14px 24px;
+      font-size: 18px;
       font-weight: bold;
       cursor: pointer;
       border-radius: 10px;
@@ -96,7 +97,7 @@
       max-width: 750px;
       text-align: left;
       white-space: pre-wrap;
-      font-size: 16px;
+      font-size: 15px;
       line-height: 1.6;
     }
 
@@ -108,24 +109,24 @@
 <body>
   <div class="container">
     <div class="left-panel">
-      <button class="link-button" onclick="window.open('https://www.instagram.com/flak_COMMUNITY/', '_blank')">
+      <button class="link-button" onclick="window.open('https://www.instagram.com/flak_COMMUNITY/
+', '_blank')">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> 
         Follow us on Instagram
-      
-  </button>
-    <button class="link-button" onclick="window.open('https://discord.com/invite/rVU4H7mcwF
+      </button>
+      <button class="link-button" onclick="window.open('https://discord.com/invite/rVU4H7mcwF
 ', '_blank')">
-        <img src="https://images.app.goo.gl/kLLf9hWc3ekezaLu7" alt="Discord"> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" alt="Discord"> 
         Join our Discord Server
-</button>
+      </button>
       <button class="link-button" onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E
 ', '_blank')">
-        <img src="https://images.app.goo.gl/66wXyuhsNtqCZMCL9" alt="Guilded"> 
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968779.png" alt="Guilded"> 
         Join our Guilded Server
       </button>
     </div>
     <div class="right-panel">
-      <img src="https://cdn.discordapp.com/attachments/1365681695218466889/1365977300469944360/rumFZRb.png?ex=681dc57f&is=681c73ff&hm=d0a533cc715de1fb764287c4cb8ed1b3b4b3fa2887026536294802e4e6979bee&" alt="FLAK Logo" class="flak-logo">
+      <img src="https://via.placeholder.com/220x220.png?text=FLAK+Logo" alt="FLAK Logo" class="flak-logo">
       <button id="aboutButton">About Us</button>
       <div id="aboutText" class="hidden">
         Welcome to FLAK! We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!
@@ -136,7 +137,7 @@
         • Hang out in General Chat for daily convos and random talks.
         • Dive into Gaming Chat to team up, share tips, or flex your wins.
         • Flex your gains or share fitness tips in Gym Chat.
-        • Rev your engines in Car Chat — show off your rides, discuss mods, share car news, and everything automotive
+        • Rev your engines in Car Chat — show off your rides, discuss mods, share car news, and everything automotive.
         • Drop your best shots in Pics Chat — selfies, photography, artwork, anything visual.
         • Post the funniest content in our Memes Chat — because who doesn’t love a good meme?
         • Leveling system: the more you chat, the more perks you unlock!
@@ -173,3 +174,4 @@
   </script>
 </body>
 </html>
+
