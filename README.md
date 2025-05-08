@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -75,7 +75,7 @@
     }
 
     .flak-logo {
-      width: 180px;
+      width: 280px;
       margin-bottom: 30px;
     }
 
