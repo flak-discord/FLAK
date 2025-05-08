@@ -112,11 +112,22 @@
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"> 
         Follow us on Instagram
       </button>
-      <button class="link-button" onclick="window.open('https://discord.com/invite/rVU4H7mcwF
-', '_blank')">
-        <img src="https://images.app.goo.gl/kLLf9hWc3ekezaLu7" alt="Discord"> 
-        Join our Discord Server
-      </button>
+     discord-button {
+      background-color: #81a5ca; /* Discord blue */
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      color: white;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+      margin-top: 10px;
+    }
+</button>
+    .discord-button:hover {
+      background-color: #81a5ca;
+    }
+</button>
       <button class="link-button" onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E
 ', '_blank')">
         <img src="https://images.app.goo.gl/66wXyuhsNtqCZMCL9" alt="Guilded"> 
