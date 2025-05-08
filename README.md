@@ -74,11 +74,6 @@
       text-align: center;
     }
 
-    .flak-logo {
-      width: 280px;
-      margin-bottom: 30px;
-    }
-
     #aboutButton {
       background-color: white;
       color: black;
@@ -119,12 +114,12 @@
       </button>
       <button class="link-button" onclick="window.open('https://discord.com/invite/rVU4H7mcwF
 ', '_blank')">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/98/Discord_logo.svg" alt="Discord"> 
+        <img src="https://images.app.goo.gl/kLLf9hWc3ekezaLu7" alt="Discord"> 
         Join our Discord Server
       </button>
       <button class="link-button" onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E
 ', '_blank')">
-        <img src="https://cdn.gilded.gg/icons/guilded-icon.svg" alt="Guilded"> 
+        <img src="https://images.app.goo.gl/66wXyuhsNtqCZMCL9" alt="Guilded"> 
         Join our Guilded Server
       </button>
     </div>
