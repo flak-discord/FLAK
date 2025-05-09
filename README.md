@@ -93,9 +93,7 @@
     </a>
     
     <a href="https://instagram.com/flak_COMMUNITY" target="_blank">
-     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
-        Follow us on Instagram
-    <button style="background-color: #81a5ca; color: white; border: none; padding: 15px 30px; font-size: 1.2em; cursor: pointer; border-radius: 8px; margin-top: 10px; transition: background-color 0.3s ease;">
+    <button style="background-color: #81a5ca; color: white; border: none; padding: 15px 30px; font-size: 1.2em; cursor: pointer; border-radius: 8px; margin-top: 10px; transition: background-color 0.3s ease;">  Follow us on Instagram
     </button>
   </a>
   <button onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E', '_blank')">Join Our Server in Guilded</button> 
