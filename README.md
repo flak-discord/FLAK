@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -23,7 +23,7 @@
     }
 
     .left-panel {
-      width: 30%;
+      width: 10%;
       background-color: #ffffff;
       padding: 40px 20px;
       display: flex;
@@ -58,7 +58,7 @@
     }
 
     .middle-panel {
-      width: 40%;
+      width: 70%;
       background-color: #000000;
       color: #ffffff;
       display: flex;
@@ -85,7 +85,7 @@
     }
 
     .right-panel {
-      width: 30%;
+      width: 200%;
       background-color: #f9f9f9;
       padding: 30px;
       overflow-y: auto;
