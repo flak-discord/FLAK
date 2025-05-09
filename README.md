@@ -1,159 +1,195 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- 
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FLAK</title>
   <style>
-    body {
-      background-color: #0a0a0a;
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      width: 100%;
+    }
+
+    .container {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left-panel {
+      width: 30%;
+      background-color: #ffffff;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .left-panel .btn {
+      display: flex;
+      align-items: center;
+      padding: 12px 16px;
+      background-color: #f0f0f0;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      color: #000;
+      font-weight: bold;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .left-panel .btn:hover {
+      background-color: #e0e0e0;
+    }
+
+    .left-panel .btn img {
+      width: 24px;
+      height: 24px;
+      margin-right: 12px;
+    }
+
+    .middle-panel {
+      width: 40%;
+      background-color: #000000;
       color: #ffffff;
-      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
       text-align: center;
-      padding: 50px;
     }
 
-   
-    }
-    h1 {
-      font-size: 3em;
-      margin-bottom: 20px;
- 
-    }
-
-    button {
-      background-color: #81a5ca;
+    #aboutBtn {
+      padding: 12px 20px;
+      font-size: 16px;
+      background-color: #ffffff;
+      color: #000000;
       border: none;
-      padding: 15px 30px;
-      font-size: 1.2em;
+      border-radius: 6px;
       cursor: pointer;
-      color: #fff;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-      margin-top: 10px;
+      transition: background 0.3s;
     }
 
-    button:hover {
-      background-color: #81a5ca;
-      color: #fff;
+    #aboutBtn:hover {
+      background-color: #dddddd;
     }
 
-    .discord-button {
-      background-color: #81a5ca; /* Discord blue */
-      border: none;
-      padding: 15px 30px;
-      font-size: 1.2em;
-      cursor: pointer;
-      color: white;
-      border-radius: 8px;
-      transition: background-color 0.3s ease;
-      margin-top: 10px;
-    }
-
-    .discord-button:hover {
-      background-color: #81a5ca;
-    }
-
-    .hidden {
+    .right-panel {
+      width: 30%;
+      background-color: #f9f9f9;
+      padding: 30px;
+      overflow-y: auto;
       display: none;
-      margin-top: 50px;
-      text-align: left;
     }
 
-    #about {
-      max-width: 800px;
-      margin: 0 auto;
+    .right-panel.active {
+      display: block;
     }
 
-    h2, h3 {
-      color: #00ffff;
+    .right-panel p {
+      margin-bottom: 1em;
+      line-height: 1.6;
     }
 
-    ul {
-      text-align: left;
-      margin: 20px 0;
+    .right-panel ul {
+      margin-top: 10px;
       padding-left: 20px;
     }
 
-    li {
-      margin-bottom: 10px;
+    .right-panel li {
+      margin-bottom: 8px;
     }
   </style>
 </head>
 <body>
-  <img src="https://cdn.discordapp.com/attachments/1365681695218466889/1365977300469944360/rumFZRb.png?ex=681dc57f&is=681c73ff&hm=d0a533cc715de1fb764287c4cb8ed1b3b4b3fa2887026536294802e4e6979bee&">
+  <div class="container">
+    <!-- Left Panel -->
+    <div class="left-panel">
+      <a href="https://www.instagram.com/flak_COMMUNITY/" target="_blank" class="btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" />
+        Follow us on Instagram
+      </a>
+      <a href="https://discord.com/invite/rVU4H7mcwF" target="_blank" class="btn">
+        <img src="https://cdn.discordapp.com/attachments/1365681695218466889/1370302951003787315/LxiaKf7.jpg?ex=681f0192&is=681db012&hm=c0b3b36f3007923ef6d207e27a00810ee892d39d5830941d0ea8b505459dce80&" alt="Discord" />
+        Join our Discord Server
+      </a>
+      <a href="https://www.guilded.gg/i/2Z1RDw9E" target="_blank" class="btn">
+        <img src="https://cdn.discordapp.com/attachments/1365681695218466889/1370303342307442738/x0EEuJK.png?ex=681f01ef&is=681db06f&hm=0feba06023a91c44092bd455096f69d6c3a0d599cd24a51b26e67d22a3b6472e&" alt="Guilded" />
+        Join our Guilded Server
+      </a>
+    </div>
 
-<div>
+    <!-- Middle Panel -->
+    <div class="middle-panel">
+      <img src="https://cdn.discordapp.com/attachments/1365681695218466889/1365977300469944360/rumFZRb.png?ex=681e6e3f&is=681d1cbf&hm=b76ab4a1ccba100141f987c883f2b44b260291ed2d033e9e15a1fb150fc789ca&" alt="FLAK Logo" class="flak-logo" />
+      <button id="aboutBtn">About Us</button>
+    </div>
 
-    <h1>WELCOME TO FLAK</h1>
-    <!-- Button for About Us -->
-    <button onclick="showAbout()">About Us</button>
-    <!-- Button for Join the Server (Discord) -->
-    <a href="https://discord.gg/rVU4H7mcwF" target="_blank">
-      <button class="discord-button">Join the Server</button>
-    </a>
-    
-    <a href="https://instagram.com/flak_COMMUNITY" target="_blank">
-    <button style="background-color: #81a5ca; color: white; border: none; padding: 15px 30px; font-size: 1.2em; cursor: pointer; border-radius: 8px; margin-top: 10px; transition: background-color 0.3s ease;">
-      Follow us on Instagram
-    </button>
-  </a>
-  <button onclick="window.open('https://www.guilded.gg/i/2Z1RDw9E', '_blank')">Join Our Server in Guilded</button> 
-  
+    <!-- Right Panel -->
+    <div class="right-panel" id="aboutText">
+      <p><strong>Welcome to FLAK!</strong> We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!</p>
+      <p><strong>What You’ll Find at FLAK:</strong></p>
+      <ul>
+        <li><strong>💬 Chat Category</strong>
+          <ul>
+            <li>General Chat for daily convos and random talks.</li>
+            <li>Gaming Chat to team up, share tips, or flex your wins.</li>
+            <li>Gym Chat for fitness tips and gains.</li>
+            <li>Car Chat for showing off rides and automotive talk.</li>
+            <li>Pics Chat for selfies, photography, and artwork.</li>
+            <li>Memes Chat for sharing hilarious content.</li>
+            <li>Leveling system: the more you chat, the more perks you unlock!</li>
+          </ul>
+        </li>
+        <li><strong>🗣️ Talking Category</strong>
+          <ul>
+            <li>Create your own custom VC.</li>
+            <li>Personalize your hangout, bring your friends, vibe your way.</li>
+          </ul>
+        </li>
+        <li><strong>🎬 Movies Category</strong>
+          <ul>
+            <li>Watching Together Stage for movie nights.</li>
+            <li>Two VCs for movie discussion.</li>
+            <li>Movie & Show Suggestions forum.</li>
+          </ul>
+        </li>
+        <li><strong>📚 Studying Category</strong>
+          <ul>
+            <li>Two Classroom Stages for study sessions.</li>
+            <li>Students’ Lounges (VCs) for chill studying.</li>
+            <li>Study-Topics Forum for tips and group planning.</li>
+          </ul>
+        </li>
+        <li><strong>🎥 Streaming Category</strong>
+          <ul>
+            <li>Live Stage for recordings and streams.</li>
+            <li>VCs for gaming parties and live edits.</li>
+            <li>Stream & Content Suggestions Forum.</li>
+          </ul>
+        </li>
+      </ul>
+      <p><strong>At FLAK</strong>, we’re more than just a server — we’re a community where friendships form, passions grow, and good memories are made. This space is built by all of us, and now you’re part of the story too. We’re so glad you’re here — welcome to FLAK!</p>
+    </div>
   </div>
 
-  <div id="about" class="hidden">
-    <h2>Welcome to FLAK!</h2>
-    <p></p>Welcome to FLAK! We’re a community for gamers, friends, and anyone exploring new interests. Whether you’re playing, studying, or just hanging out, there’s a place for you here. With fun roles, helpful support, and tons to do, there’s always something new to discover. We’re glad you’re here!
-What You’ll Find at FLAK:
-
-    <h3>💬 Chat Category</h3>
-    <ul>
-      <li>Hang out in General Chat for daily convos and random talks.</li>
-      <li>Dive into Gaming Chat to team up, share tips, or flex your wins.</li>
-      <li>Flex your gains or share fitness tips in Gym Chat.</li>
-      <li>Rev your engines in Car Chat — show off your rides, discuss mods, share car news, and everything automotive</li>
-      <li>Drop your best shots in Pics Chat — selfies, photography, artwork, anything visual.</li>
-      <li>Post the funniest content in our Memes Chat — because who doesn’t love a good meme?</li>
-      <li>Leveling system: the more you chat, the more perks you unlock!</li>
-    </ul>
-
-    <h3>🗣️ Talking Category</h3>
-    <ul>
-      <li>Create your own custom VC whenever you want.</li>
-      <li>Personalize your hangout, bring your friends, vibe your way.</li>
-    </ul>
-
-    <h3>🎬 Movies Category</h3>
-    <ul>
-      <li>Watching Together Stage for movie watch-alongs.</li>
-      <li>Two VC Channels for movie discussions.</li>
-      <li>Movie & Show Suggestions Forum.</li>
-    </ul>
-
-    <h3>📚 Studying Category</h3>
-    <ul>
-      <li>Two Classroom Stages for study sessions and workshops.</li>
-      <li>Two Students’ Lounges (VCs) for casual studying.</li>
-      <li>Study-Topics Forum for sharing tips and organizing group studies.</li>
-    </ul>
-
-    <h3>🎥 Streaming Category</h3>
-    <ul>
-      <li>Live Stage for recordings and streams.</li>
-      <li>Two VC Channels for gaming parties and live editing.</li>
-      <li>Stream & Content Suggestions Forum.</li>
-    </ul>
-
-
-    <p>At FLAK, we’re more than just a server — we’re a community where friendships form, passions grow, and good memories are made. No matter why you joined, you’re welcome here just as you are. This space is built by all of us, and now you’re part of the story too. We’re so glad you’re here — welcome to FLAK!</p>
-   <!-- Button for Instagram -->
-  
-</div>
-
   <script>
-    function showAbout() {
-      document.getElementById('about').classList.toggle('hidden');
-    }
+    const aboutBtn = document.getElementById('aboutBtn');
+    const aboutText = document.getElementById('aboutText');
+
+    aboutBtn.addEventListener('click', () => {
+      aboutText.classList.toggle('active');
+    });
   </script>
 </body>
 </html>
