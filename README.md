@@ -89,7 +89,7 @@
     <button onclick="showAbout()">About Us</button>
     <!-- Button for Join the Server (Discord) -->
     <a href="https://discord.gg/rVU4H7mcwF" target="_blank">
-      <button class="discord-button">Join the Server</button>
+      <button class="discord-button">Join our discord server</button>
     </a>
     
     <a href="https://instagram.com/flak_COMMUNITY" target="_blank">
