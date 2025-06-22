@@ -80,7 +80,7 @@
   </style>
 </head>
 <body>
-  <img src="https://cdn.discordapp.com/attachments/1256758735993307238/1372540006534484051/oKleQU6.png?ex=682fb6be&is=682e653e&hm=aca5faaca0dfd5219641ec7359b38151d1789bfaef5923c6612d42f1dea8d2db&">
+  <img src="https://cdn.discordapp.com/attachments/1371148648477626490/1382818562074476648/casidMu.webp?ex=68590fe4&is=6857be64&hm=19434b73faab3e46ada8000fd628839098bbeb06c78012d9aad7447270f1d507&">
 
 <div>
 
