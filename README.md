@@ -88,7 +88,7 @@
     <!-- Button for About Us -->
     <button onclick="showAbout()">About Us</button>
     <!-- Button for Join the Server (Discord) -->
-    <a href="https://discord.gg/rVU4H7mcwF" target="_blank">
+    <a href="https://discord.gg/qykPeAGMpv" target="_blank">
       <button class="discord-button">Join our discord server</button>
     </a>
     
